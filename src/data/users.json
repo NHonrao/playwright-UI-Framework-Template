@@ -1,0 +1,10 @@
+{
+  "admin": {
+    "username": "<admin_username>",
+    "password": "<admin_password>"
+  },
+  "readonly": {
+    "username": "<readonly_username>",
+    "password": "<readonly_password>"
+  }
+}

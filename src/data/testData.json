@@ -1,0 +1,16 @@
+{
+  "login": {
+    "validCredentials": {
+      "username": "<admin_username>",
+      "password": "<admin_password>"
+    },
+    "invalidCredentials": {
+      "username": "invalid_user",
+      "password": "wrong_password"
+    }
+  },
+  "messages": {
+    "loginError": "Invalid username or password",
+    "sessionExpired": "Your session has expired"
+  }
+}
