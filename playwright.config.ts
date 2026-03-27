@@ -51,7 +51,7 @@ export default defineConfig({
 
   use: {
     headless: headless,
-    baseURL: process.env.BASE_URL || 'https://tst-gb.harlands-ddms.co.uk',
+    baseURL: process.env.BASE_URL || 'sampleBaseUrl',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'on-first-retry',

@@ -3,7 +3,7 @@ import { BasePage } from './BasePage';
 import { config } from '../config/config';
 
 /**
- * LoginPage — Page Object for the DDMS Login screen.
+ * LoginPage — Page Object for the - Login screen.
  *
  * OOP Principles applied:
  *  - Encapsulation : All selectors are private. Tests interact only through
@@ -24,7 +24,7 @@ import { config } from '../config/config';
  */
 export class LoginPage extends BasePage {
   // ── Selectors (private — never exposed to tests) ──────────────────────────
-  // Selectors confirmed against live DDMS login page DOM
+  // Selectors confirmed against live - login page DOM
   private readonly selectors = {
     username:    'input[name="username"]',                    // <input name="username" type="TEXT">
     password:    '#Password',                                // <input id="Password" type="PASSWORD">

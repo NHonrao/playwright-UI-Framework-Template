@@ -80,7 +80,7 @@ export class HomePage extends BasePage {
     }
   }
 
-  /** Returns text of h2.home — "Welcome to the DDMS Home Page". */
+  /** Returns text of h2.home — "Welcome to the Home Page". */
   async getWelcomeText(): Promise<string> {
     try {
       return this.getText(this.page.locator(this.selectors.welcomeHeading), 'welcome heading (h2.home)');
